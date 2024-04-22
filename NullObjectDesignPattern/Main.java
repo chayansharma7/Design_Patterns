@@ -12,7 +12,6 @@ public class Main {
 
     private static void printVehicleDetails(Vehicle vehicle) {
 
-        // ab mujhe yha if(vehicle != null) likhne ki need nahi hai
         System.out.println("Seating Capacity: " + vehicle.getSeatingCapacity());
         System.out.println("Fuel Tank Capacity: " + vehicle.getTankCapacity());
     }
